@@ -52,7 +52,7 @@ void _navigateToWidgetShowCase(){
       title: const Text('DevProfile M3'),
     ),
   body: Padding(
-    padding: const EdgeInserts.all(16.0),
+    padding: const EdgeInsets.all(16.0),
     child: Column(
       children: [
       Card(
@@ -62,7 +62,7 @@ void _navigateToWidgetShowCase(){
           ),
           title: Text(_persona.fullName),
           subtitle: Text(
-            '${_persona.email\}\nData de naixement: ${_persona.birthDate.day}/${_persona.birthDate.month}/${_persona.birthDate.year}',
+            '${_persona.email}\nData de naixement: ${_persona.birthDate.day}/${_persona.birthDate.month}/${_persona.birthDate.year}',
         ),
       ),
       ),
